@@ -7,6 +7,7 @@ for i in numbers:
     for k in range(2, i):
         if i % k == 0:
             is_prime = False
+            break
     if i == 1:
         pass
     elif is_prime:
